@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merna Abdallah Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <link rel="icon" href="assets/images.png" type="image/png" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Merna Abdallah</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="logo">Merna Abdallah</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/Untitled (4).png" alt="Merna Abdallah profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          
+          <h1 class="title">Merna Abdallah</h1>
+          <p class="section__text__p2">Software Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://drive.google.com/file/d/19VWDhR4CcZDL8DYaNJHvUuhApXCf4WfK/view?usp=sharing'"
+            >
+            
+              View CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/merna-abdallah/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/MernaAbdallah'"
+            />
+          </div>
+        </div>
+      </section>
+
+
+      <section id="about"  class="fade-in-section" >
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img
+                      src="./assets/education.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>Bachelor Degree <br />
+                        
+                         Faculty of Computer and Information Science Ain Shams University 
+                </br><br /> 2020 - 2024
+                    </p>
+                  </div>
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>Full Stack Intern
+                     <br />EG Insurtech company <br />
+                     Full Stack training using .NET Core, Angular framework while applying Domain-Driven Design and Mediator design patterns in small project tasks.
+                    </p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>AI Intern
+                     <br />Samsung Electronics <br /> Gaining hands-on AI experience through data analytics, statistics, machine learning, deep learning, time series
+                     analysis, and web scraping.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+
+
+
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <br>
+        <br>
+        <br>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Fullstack Development</h2>
+              <div class="article-container">
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>C#</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>OOP</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>.Net Core</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Angular </h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MVC</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PL/SQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Java </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>ASP.NET</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>SOLID Principles</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>C++ </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Repository Design Pattern</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+
+
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Flask</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Domain Driven Design</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Mediator Design Pattern </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Artificial Intelligence</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Machine Learning</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Deep Learning</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Transfer Learning</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Computer Vision</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Web Scraping
+                    </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>NLP</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3> Time Series Analysis
+                    </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Automated Machine Learning
+                    </h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <br>
+    <br>
+
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <h2 class="experience-sub-title project-title">School Management System</h2>
+                <div class="article-container">
+                    <img src="./assets/managment-software.png"  width="400" height="200">
+                </div>
+                <p class="project-description">
+                    This project is a school management system designed to streamline administrative tasks, manage student data.
+                    It includes features such as C# .NET Core, Domain-Driven Design (DDD), the Repository Design Pattern, ASP.NET Web API, and Microsoft SQL Server.
+                </p>
+                
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MernaAbdallah/School-System-BackEnd-'">
+                        View Project
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <h1 class="experience-sub-title project-title">Employers Management System</h1>
+                <div class="article-container">
+                    <img src="./assets/Employers Management System.jpg"  width="400" height="200">
+                </div>
+                <p class="project-description">
+                     A web application developed using the ASP.NET MVC framework, Repository Design Pattern and Unit of Work.
+                    This system is designed to efficiently manage employer-related data, offering a seamless CRUD experience.
+                </p>
+                <br>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://drive.google.com/drive/folders/1ORu6N_5v4BjqFaxgWd_5u3PD9Ru0nViP'">
+                        View Project
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <h1 class="experience-sub-title project-title">Driver Fatigue Monitoring System</h1>
+                <div class="article-container">
+                    <img src="./assets/Screenshot 2024-03-09 041450.png"   width="400" height="200">
+                </div>
+                <br>
+                <br>
+                <p class="project-description">
+                Advanced system that uses YOLOv8 for real-time object detection to detect and prevent driver fatigue in vehicles. 
+                This system used Streamlit and Flask for a user-friendly interface and smooth deployment.
+                </p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MernaAbdallah/Driver-Fatigue-Monitoring-System-?tab=readme-ov-file#driver-fatigue-monitoring-system'">
+                        View Project
+                    </button>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <br> <br> <br> 
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <h2 class="experience-sub-title project-title">My ADHD Mobile App</h2>
+                <div class="article-container">
+                    <img src="./assets/my adhd.jpg"   width="300" height="300">
+                </div>
+                <p class="project-description">
+                A specialized to-do list application crafted with Android Studio and Java, 
+             to help ADHD patients in organizing their day and gives them tips on how to deal with their
+problem.
+                </p>
+                
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MernaAbdallah/MyADHD'">
+                        View Project
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title"> News Portal</h4>
+                <div class="article-container">
+                    <img src="./assets/news portal.jpg"   width="400" height="200">
+                </div>
+                <br> 
+                <p>
+                    Software Engineering Project Developed a News Portal with C# and Entity Framework, seamlessly integrated with an Oracle database.
+                    This project adheres to a comprehensive Software Requirements Specification (SRS) document.
+                </p>
+                <br>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MernaAbdallah/News-Portal'"
+                    >
+                    View Project
+                    </button>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title"> Automated Machine Learning</h4>
+                <div class="article-container">
+                    <img src="./assets/automl.png"  width="400" height="200">
+                </div>
+                
+                <br> 
+                <br> 
+                <br> 
+                <p>
+                    Applied automated machine learning using PyCaret for classification on a classification dataset.
+                <br>
+                <br> 
+            
+                <br> 
+            
+
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MernaAbdallah/News-Portal'"
+                    >
+                    View Project
+                    </button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+    />
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:mernaabdallah89@gmail.com">  mernaabdallah89@gmail.com </a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/merna-abdallah/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Merna Abdallah. All Rights Reserved.</p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
